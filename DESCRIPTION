@@ -1,13 +1,16 @@
 Package: batade
 Type: Package
-Title: HTML reports and so on
-Version: 0.1
-Date: 2011-06-13
-Author: Ichikawa Daisuke
+Title: HTML Reports and so on
+Version: 0.1.9001
+Authors@R: person(given = "Ichikawa", family = "Daisuke",
+           role = c("aut", "cre"),
+           email = "ichikawadaisuke@gmail.com")
+Author: Ichikawa Daisuke [aut, cre]
 Maintainer: Ichikawa Daisuke <ichikawadaisuke@gmail.com>
 Depends: hwriter
-Description: This package provides some utility functions (e.g HTML
+Description: Provides some utility functions (e.g. an HTML
         report maker).
+    Compatibility updates by Renova.
 License: GPL-2
 Packaged: 2012-10-29 08:58:15 UTC; ripley
 Repository: CRAN

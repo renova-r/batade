@@ -1,6 +1,5 @@
 mkhtml <-
 function(filename, data, foot=TRUE, charset="CP932", lang="JP"){
-	require(hwriter)
 	p <- openPage(filename, charset=charset, lang=lang)
   if(is.data.frame(data))data <- as.matrix(data)
   hwrite(hmakeTag("style","
